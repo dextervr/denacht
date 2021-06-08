@@ -1,3 +1,6 @@
+import base.Enemy
+import base.weapon
+
 fun main(args: Array<String>) {
 
 

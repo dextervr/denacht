@@ -1,3 +1,5 @@
+package base
+
 open class Enemy(val name: String, var health: Int) {
 
     fun groet() {
