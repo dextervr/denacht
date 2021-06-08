@@ -8,6 +8,7 @@ class Kamer(val name: String, enemy: Enemy){
         println("Je schrikt en weet niet wat je moet doen")
         println("Wat ga je nu doen?")
 
+
      }
 //keuze a en b maken
     //A = slaapkamer
