@@ -1,3 +1,7 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    var slaapkamer = slaapkamer("Slaapkamer")
+    slaapkamer.Inleiding()
+    slaapkamer.slaapkamer()
+
+    slaapkamer.Inleiding()
 }
