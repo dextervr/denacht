@@ -7,12 +7,12 @@ import game.weapons.Nagelschaartje
 class badkamer(var p:Player) {
     fun main(){
 
-        println("\u000cJe bevind je nu in de badkamer en kijkt goed om je heen naar een wapen om jezelf te verdedigen.\n" +
+        println("\u000cJe bevindt je nu in de badkamer en kijkt goed om je heen naar een wapen om jezelf te verdedigen.\n" +
                 "Er is een nagelschaartje in de la, pak hem op.\n\n(P) Pak op")
         var nagelschaartje = getNagelschaartje()
-        if(Nagelschaartje.first) {
-            p.weapons.add(Nagelschaartje.second)
-            println("Je hebt nu een nagelschaartje, deze kun je gebruiken om jezelf te verdedigen")
+        if(nagelschaartje.first) {
+            p.weapons.add()
+            println("Je hebt nu een nagelschaartje, dat kun je gebruiken om jezelf te verdedigen")
             Thread.sleep(1000)
             println("")
         }
